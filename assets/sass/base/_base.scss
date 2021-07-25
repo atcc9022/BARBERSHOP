@@ -1,0 +1,88 @@
+body {
+    .navbar {
+        background-color: $negroespecial !important;
+        .nav-link {
+        color: #FFF !important;
+        font-family:$font-familyRoboto;
+        font-size: $fontsize__small;
+        }
+
+        .nav-link {
+            color: #FFF !important;
+        }
+        .nav-link:hover {
+            color:$salomonmedio !important;
+        }
+
+    }
+}
+
+section {
+    article {
+        p {
+            line-height: 268%;
+            font-family: $font-familyRoboto;
+            font-weight: 500;
+            font-size: $fontsize__medium;
+            color: $negroclaro;
+        }
+
+        h6 {
+            font-family: $font-familyPlay;
+            font-style: regular;
+            font-size: $fontsize__large;
+        }
+    }
+}
+
+.fondo_pag {
+    background-color: $colorplomoclaro;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    
+
+    .pagination {
+
+        #anterior {
+            border-top-left-radius: 50px;
+            border-bottom-left-radius: 50px;
+            
+        }
+    
+        #siguiente {
+            border-top-right-radius: 80px;
+            border-bottom-right-radius: 80px;
+            color: $negroespecial;
+        }
+
+        
+        #bg-dos {
+            background-color: $negroplomo;
+            border: $negroplomo;
+            border: 1px solid silver; 
+        }
+
+        #bg-dos {
+            background-color: $negroplomo;
+        }
+        #bg-dos:hover {
+            background-color: $negroespecial;
+
+        }
+
+        a {
+            color: $negroespecial;
+            
+        }
+    }
+
+}
+
+footer {
+    background-color: $negroespecial;
+}
+
+
+
+
+

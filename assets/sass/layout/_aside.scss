@@ -1,0 +1,50 @@
+.row {
+
+    img {
+     border-radius: 300px;
+     height: 14rem;
+     border: 1px solid silver;
+     margin-top: -30px;
+          
+    }
+
+    h4 {
+        font-family: $font-familyPlay;
+        font-size: $fontsize__x-large;
+        font-style:italic;
+        font-weight: 700;   
+               
+    }
+    
+    h6  {
+        color: $salmonclaro;
+        font-family: $font-familyRoboto;
+        font-size: $fontsize__large;
+     
+    }
+
+    h6 {
+        color: $salmonclaro !important;
+    }
+    h6:hover {
+        color: $colorsalmon !important;
+    }
+        
+
+    p {
+        font-family: $font-familyRoboto;
+        font-weight: 500;
+        font-size: $fontsize__small;
+        line-height: 260%;
+        
+    }
+
+}
+
+@media screen and (max-width: 1000px){
+    #contact {
+        flex: 0 0 100%;
+        max-width: 100%;
+        text-align: center;
+    }
+}

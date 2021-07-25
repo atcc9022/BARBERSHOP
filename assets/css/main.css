@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+body .navbar {
+  background-color: #121619 !important;
+}
+body .navbar .nav-link {
+  color: #FFF !important;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+}
+body .navbar .nav-link {
+  color: #FFF !important;
+}
+body .navbar .nav-link:hover {
+  color: #d76c69 !important;
+}
+
+section article p {
+  line-height: 268%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #222323;
+}
+section article h6 {
+  font-family: "Playfair Display", serif;
+  font-style: regular;
+  font-size: 18px;
+}
+
+.fondo_pag {
+  background-color: #d1d1d1;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+.fondo_pag .pagination #anterior {
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+.fondo_pag .pagination #siguiente {
+  border-top-right-radius: 80px;
+  border-bottom-right-radius: 80px;
+  color: #121619;
+}
+.fondo_pag .pagination #bg-dos {
+  background-color: #6c6e70;
+  border: #6c6e70;
+  border: 1px solid silver;
+}
+.fondo_pag .pagination #bg-dos {
+  background-color: #6c6e70;
+}
+.fondo_pag .pagination #bg-dos:hover {
+  background-color: #121619;
+}
+.fondo_pag .pagination a {
+  color: #121619;
+}
+
+footer {
+  background-color: #121619;
+}
+
+.row img {
+  border-radius: 300px;
+  height: 14rem;
+  border: 1px solid silver;
+  margin-top: -30px;
+}
+.row h4 {
+  font-family: "Playfair Display", serif;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 700;
+}
+.row h6 {
+  color: #ECBCBA;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+}
+.row h6 {
+  color: #ECBCBA !important;
+}
+.row h6:hover {
+  color: #e56353 !important;
+}
+.row p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 260%;
+}
+
+@media screen and (max-width: 1000px) {
+  #contact {
+    flex: 0 0 100%;
+    max-width: 100%;
+    text-align: center;
+  }
+}
+header {
+  background-image: url(../img/post-image.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 700px;
+  position: relative;
+}
+header h1 {
+  text-align: center;
+  color: #FFF;
+  padding-top: 200px;
+  font-family: "Playfair Display", serif;
+  font-size: 70px;
+  font-style: italic;
+  font-weight: 700;
+}
+header i {
+  color: #FFF !important;
+  padding-top: 100px;
+}
+
+@media screen and (max-width: 600px) {
+  header {
+    height: 600px;
+  }
+  header h1 {
+    font-size: 38px;
+  }
+}
+.btn {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px !important;
+  color: #FFF;
+  background-color: #6c6e70 !important;
+  border-radius: 50px !important;
+  height: 40px;
+}
+
+.btn {
+  background-color: #6c6e70 !important;
+}
+
+.btn:hover {
+  background-color: #d1d1d1 !important;
+}
+
+/*# sourceMappingURL=main.css.map */
